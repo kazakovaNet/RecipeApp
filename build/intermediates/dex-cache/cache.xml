@@ -155,6 +155,15 @@
         <dex dex="/Users/nkazakova/Downloads/Ex_Files_Effective_Android_Testing_Mobile/Exercise Files/Ch02/02_08/Finish/app/build/intermediates/pre-dexed/debug/classes_a58dfdcee1df8f3e88e239e58ac4f9eeded3a1f6.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/nkazakova/Downloads/Ex_Files_Effective_Android_Testing_Mobile/Exercise Files/Ch02/02_08/Finish/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/nkazakova/Downloads/Ex_Files_Effective_Android_Testing_Mobile/Exercise Files/Ch02/02_08/Finish/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_affb192c474e14e36b3220425826547b31a0bd23/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/nkazakova/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar"
         jumboMode="false"
@@ -216,6 +225,15 @@
         revision="25.0.3"
         sha1="4785a3c21320980282f9f33d0d1264a69040538f">
         <dex dex="/Users/nkazakova/Downloads/Ex_Files_Effective_Android_Testing_Mobile/Exercise Files/Ch02/02_08/Finish/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3_bbd4260c920499d29211bc4e1d419f3c6276a904.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nkazakova/Downloads/Ex_Files_Effective_Android_Testing_Mobile/Exercise Files/Ch02/02_08/Finish/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ad760e4c9eb98d589768133934d9c7a273d04cb2">
+        <dex dex="/Users/nkazakova/Downloads/Ex_Files_Effective_Android_Testing_Mobile/Exercise Files/Ch02/02_08/Finish/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7dee5eeae4c47f078a8cf239267fb75f88e75624/classes.dex" />
     </item>
     <item
         is-multidex="false"
