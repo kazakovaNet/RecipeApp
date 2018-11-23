@@ -4,7 +4,7 @@ import com.sqisland.tutorial.recipes.data.local.Favorites;
 import com.sqisland.tutorial.recipes.data.local.RecipeStore;
 import com.sqisland.tutorial.recipes.data.model.Recipe;
 
-public class RecipePresenter implements RecipeContract.Listener{
+public class RecipePresenter implements RecipeContract.Listener {
     private final RecipeStore store;
     private RecipeContract.View view;
     private Favorites favorites;
@@ -29,6 +29,10 @@ public class RecipePresenter implements RecipeContract.Listener{
     }
     
     public void toggleFavorite() {
+        if (recipe == null) {
+            throw new IllegalStateException();
+        }
+        
         boolean result = favorites.toggle(recipe.id);
         view.setFavorite(result);
     }
