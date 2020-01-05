@@ -1,9 +1,9 @@
 package com.sqisland.tutorial.recipes.test;
 
 import android.content.Intent;
-import android.support.annotation.StringRes;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.rule.ActivityTestRule;
+import androidx.annotation.StringRes;
+import androidx.test.platform.app.InstrumentationRegistry;
+import androidx.test.rule.ActivityTestRule;
 
 import com.sqisland.tutorial.recipes.R;
 import com.sqisland.tutorial.recipes.data.local.InMemoryFavorites;

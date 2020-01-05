@@ -1,7 +1,7 @@
 package com.sqisland.tutorial.recipes.data.local;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 
 import com.sqisland.tutorial.recipes.data.model.Recipe;
 
